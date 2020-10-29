@@ -1,12 +1,18 @@
 ﻿using System;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.UI;
 
 [CreateAssetMenu]
 public class ElementsSO : ScriptableObject
 {
-    public String Name, WebsiteAddress, Description, Menu;
-    public Image Icon, Logo, Pictures;
-    public Color _borderColor;
+    public String Name, websiteAddress, description, menu;
+    public Sprite icon, logo, pictures;
+    
+    /*public enum IconSprite{ Home, Food, Laundry }
+
+    public IconSprite icons;
+
+    public void OnEnable()
+    {
+        
+    }*/
 }
